@@ -1,6 +1,6 @@
 <?php
   echo "I'm version 1";
-  echo "The time is " . date("h:i:sa");
-  echo "The hostname is " . gethostname();
-  echo "My Pod IP is : ".$_SERVER['SERVER_ADDR'];
+  echo "<br><br>The time is " . date("h:i:sa");
+  echo "<br><br>The hostname is " . gethostname();
+  echo "<br><br>My Pod IP is : ".$_SERVER['SERVER_ADDR'];
 ?>
